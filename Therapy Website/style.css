@@ -462,7 +462,20 @@ p {
 	z-index: -1;
 }
 /* End About Section */
+/*google maps section*/
+.google-map {
+	padding-bottom: 30%;
+	position: relative;
+}
 
+.google-map iframe {
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+/*google maps section end*/
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
