@@ -323,7 +323,7 @@ p {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
-	
+	margin: auto;
 }
 #services .service-item h2 {
 	font-size: 2rem;
@@ -335,6 +335,16 @@ p {
 #services .service-item p {
 	color: white;
 	text-align: left;
+}
+#services .times {
+	color: white;
+	margin: auto;
+	font-size: 2.3rem;
+}
+#services .insurance {
+	color: white;
+	margin: auto;
+	font-size: 2.3rem;
 }
 /* End Services Section */
 
