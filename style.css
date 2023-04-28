@@ -59,7 +59,7 @@ p {
 	transition-property: background-color, color;
 }
 .cta:hover {
-	color: white;
+	color: WHITE;
 	background-color: #dddddd;
 }
 .brand h1 {
@@ -122,6 +122,9 @@ p {
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
+}
+#header .nav-list ul a:hover {
+	color: #aaaaaa;
 }
 
 #header .hamburger {
@@ -258,7 +261,9 @@ p {
 #services .service-top {
 	max-width: 1000px;
 	margin: 0 auto;
-	
+} 
+#services .service-top p {
+	padding: 10px;
 } 
 #services .service-bottom {
 	display: flex;
@@ -337,7 +342,9 @@ p {
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
+	padding-bottom: 39px;
 }
+
 #about .col-left {
 	width: 250px;
 	height: 360px;
@@ -353,6 +360,7 @@ p {
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	padding: 10px;
 }
 #about .col-right .cta {
 	color: black;
@@ -385,17 +393,17 @@ p {
 	margin: 0 auto;
 	width: 90%;
 }
+
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
 }
 #contact .contact-item {
 	width: 80%;
-	padding: 20px; /*20*/
 	text-align: center;
 	border-radius: 10px;
-	padding: 30px; /*30*/
-	margin: 30px; /*30*/
+	padding: 30px; 
+	margin: 30px; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -455,6 +463,7 @@ p {
 	letter-spacing: 0.1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 #footer .social-icon {
 	display: flex;
