@@ -183,7 +183,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/istockphoto-990612870-612x612.jpg);
+	background-image: url(./img/stockoffice.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -452,20 +452,7 @@ p {
 	z-index: -1;
 }
 /* End About Section */
-/*google maps section*/
-.google-map {
-	padding-bottom: 30%;
-	position: relative;
-}
 
-.google-map iframe {
-	height: 100%;
-	width: 100%;
-	left: 0;
-	top: 0;
-	position: absolute;
-}
-/*google maps section end*/
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
@@ -510,7 +497,20 @@ p {
 	font-weight: 500;
 }
 /*End contact Section */
+/*google maps section*/
+.google-map {
+	padding-bottom: 30%;
+	position: relative;
+}
 
+.google-map iframe {
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+/*google maps section end*/
 /* Footer */
 #footer {
 	background-color: #555555;
