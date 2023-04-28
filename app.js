@@ -9,7 +9,6 @@ hamburger.addEventListener('click', () => {
 });
 
 document.addEventListener('scroll', () => {
-	const header = document.querySelector('[id="header"]')
 	const hero_header = document.querySelector('[class="hero-header"]')
 	if (hero_header.getBoundingClientRect().top < header.getBoundingClientRect().height) {
 		header.style.backgroundColor = '#aaaaaa';
