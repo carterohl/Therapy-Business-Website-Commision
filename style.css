@@ -444,6 +444,11 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
+#footer .icon{
+	width: 30px;
+	color: white;
+	margin: 0 auto;
+}
 /* End Footer */
 
 /* Keyframes */
