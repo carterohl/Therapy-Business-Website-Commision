@@ -300,13 +300,12 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	
+	height: 500px;
 }
 #services .service-item::after {
 	content: '';
@@ -332,20 +331,15 @@ p {
 	text-transform: uppercase;
 	
 }
+
 #services .service-item p {
 	color: white;
-	text-align: left;
-}
-#services .times {
-	color: white;
 	margin: auto;
 	font-size: 2.3rem;
+	width: auto;
+	height: 300px;
 }
-#services .insurance {
-	color: white;
-	margin: auto;
-	font-size: 2.3rem;
-}
+
 /* End Services Section */
 
 /* Projects section */
