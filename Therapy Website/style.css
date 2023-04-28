@@ -12,12 +12,7 @@ html {
 a {
 	text-decoration: none;
 }
-/* 
-#201A1e (Black)
-#D0B49F (Brown)
-#E4D4C8 (Champagne)
-#E2E6E7 (Pewter)
-*/
+
 .container {
 	min-height: 100vh;
 	width: 100%;
@@ -103,7 +98,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: #dddddd;
+	background-color: #555555;
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -129,25 +124,7 @@ p {
 	padding: 20px;
 	display: block;
 }
-#header .nav-list ul a::after {
-	content: attr(data-after);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%) scale(0);
-	color: #dddddd;
-	font-size: 13rem;
-	letter-spacing: 50px;
-	z-index: -1;
-	transition: 0.3s ease letter-spacing;
-}
-#header .nav-list ul li:hover a::after {
-	transform: translate(-50%, -50%) scale(1);
-	letter-spacing: initial;
-}
-#header .nav-list ul li:hover a {
-	color: #dddddd;
-}
+
 #header .hamburger {
 	height: 60px;
 	width: 60px;
