@@ -235,6 +235,7 @@ p {
 #about .col-left {
 	width: 250px;
 	height: 360px;
+	padding-bottom: 5rem;
 }
 #about .col-right {
 	width: 100%;
@@ -243,10 +244,8 @@ p {
 	font-size: 2.5rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
-	margin-bottom: 10px;
 }
 #about .col-right p {
-	margin-bottom: 20px;
 	text-indent: 5rem;
 }
 #about .col-right .cta {
