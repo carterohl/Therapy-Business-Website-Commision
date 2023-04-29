@@ -248,6 +248,7 @@ p {
 #about .col-right p {
 	text-indent: 5rem;
 	text-align: left;
+	text-indent: 0rem;
 }
 #about .col-right .cta {
 	color: black;
@@ -312,6 +313,9 @@ p {
 	font-weight: 1000;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
+}
+#before .before-bottom .shame{
+	text-indent: 0rem;
 }
 /*End BEFORE YOU BOOK SECTION*/
 
