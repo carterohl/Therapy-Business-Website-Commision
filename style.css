@@ -523,14 +523,14 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: #E2E6E7;
+		color: white;
 		font-weight: 500;
 	}
 }
 /* End Keyframes */
 
 /* Media Query For Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
