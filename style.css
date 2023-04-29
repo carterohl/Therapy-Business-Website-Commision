@@ -31,8 +31,7 @@ p {
 	line-height: 3rem;
 	font-weight: 300;
 	letter-spacing: 0.01rem;
-	text-align: justify;
-	padding: 5rem;
+	padding: 4rem;;
 }
 .section-title {
 	font-size: 4rem;
@@ -318,7 +317,7 @@ p {
 /* Services Section */
 #services .services {
 	flex-direction: column;
-	text-align: center;
+	text-align: left;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
@@ -328,7 +327,7 @@ p {
 	margin: 0 auto;
 } 
 #services .service-top p {
-	padding: 10px;
+	padding: 4rem;
 } 
 #services .service-top p span{
 	font-size: 2.5rem;
