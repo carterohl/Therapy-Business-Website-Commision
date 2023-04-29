@@ -488,6 +488,7 @@ p {
 	color: white;
 	font-size: .9rem;
 	text-align: center;
+	padding-top: 0rem;
 }
 #footer .icon{
 	width: 30px;
