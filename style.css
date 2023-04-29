@@ -193,6 +193,8 @@ p {
 	position: relative;
 	background-attachment: fixed;
 	z-index: 1;
+	color: white;
+	
 }
 #hero::after {
 	content: '';
@@ -212,27 +214,106 @@ p {
 	justify-content: flex-start;
 }
 #hero h1 {
-	display: block;
-	width: fit-content;
 	font-size: 4rem;
-	position: relative;
-	color: white;
 }
 #hero h2 {
-	display: block;
-	width: fit-content;
 	font-size: 2.5rem;
-	position: relative;
-	color: white;
 }
 #hero h3 {
-	display: block;
-	width: fit-content;
 	font-size: 1.5rem;
-	position: relative;
-	color: white;
 }
 /* End Hero Section */
+
+/* About Section */
+#about .about {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#about .col-left {
+	width: 250px;
+	height: 360px;
+}
+#about .col-right {
+	width: 100%;
+}
+#about .col-right h2 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+#about .col-right p {
+	margin-bottom: 20px;
+	text-indent: 5rem;
+}
+#about .col-right .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+#about .col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+#about .col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid #dddddd;
+	z-index: -1;
+}
+/* End About Section */
+
+/* Before You Book Section */
+
+#before .before {
+	flex-direction: column;
+	text-align: center;
+	min-height: auto;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+}
+
+#before .before-top {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+#before .before-top h1 {
+	font-size: 4rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+}
+#before .before-bottom {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+#before .before-bottom p {
+	font-size: 2.3rem;
+	text-indent: 5rem;
+	text-align: justify;
+	padding: 20px;
+}
+#before .before-bottom p span{
+	font-size: 2.5rem;
+	font-weight: 1000;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+/*End BEFORE YOU BOOK SECTION*/
 
 /* Services Section */
 #services .services {
@@ -324,99 +405,6 @@ p {
 	line-height: 3.6rem;
 }
 /* End Services Section */
-
-/* About Section */
-#about .about {
-	flex-direction: column-reverse;
-	text-align: center;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding-bottom: 39px;
-}
-
-#about .col-left {
-	width: 250px;
-	height: 360px;
-}
-#about .col-right {
-	width: 100%;
-}
-#about .col-right h2 {
-	font-size: 2.5rem;
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-	margin-bottom: 10px;
-}
-#about .col-right p {
-	margin-bottom: 20px;
-	padding: 10px;
-	text-indent: 5rem;
-}
-#about .col-right .cta {
-	color: black;
-	margin-bottom: 50px;
-	padding: 10px 20px;
-	font-size: 2rem;
-}
-#about .col-left .about-img {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	border: 10px solid white;
-}
-#about .col-left .about-img::after {
-	content: '';
-	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 7px solid #dddddd;
-	z-index: -1;
-}
-/* End About Section */
-
-/* Before You Book Section */
-
-#before .before {
-	flex-direction: column;
-	text-align: center;
-	min-height: auto;
-	max-width: 1200px;
-	margin: 0 auto;
-	background-color: white;
-	border-radius: 10px;
-	box-shadow: 0px 0px 18px 0 #0000002c;
-}
-
-#before .before-top {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding-top: 40px;
-}
-#before .before-top h1 {
-	font-size: 4rem;
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-}
-#before .before-bottom {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding-bottom: 40px;
-}
-#before .before-bottom p {
-	font-size: 2.3rem;
-	text-indent: 5rem;
-	text-align: justify;
-	padding: 20px;
-}
-#before .before-bottom p span{
-	font-size: 2.5rem;
-	font-weight: 1000;
-	letter-spacing: 0.2rem;
-	margin-bottom: 10px;
-}
-/*End BEFORE YOU BOOK SECTION*/
 
 /* contact Section */
 #contact .contact {
