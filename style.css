@@ -31,8 +31,7 @@ p {
 	line-height: 3rem;
 	font-weight: 300;
 	letter-spacing: 0.01rem;
-	text-align: justify;
-	padding: 5rem;
+	padding: 4rem;;
 }
 .section-title {
 	font-size: 4rem;
@@ -237,7 +236,7 @@ p {
 /* Services Section */
 #services .services {
 	flex-direction: column;
-	text-align: center;
+	text-align: left;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
@@ -247,7 +246,7 @@ p {
 	margin: 0 auto;
 } 
 #services .service-top p {
-	padding: 10px;
+	padding: 4rem;
 } 
 #services .service-top p span{
 	font-size: 2.5rem;
@@ -351,7 +350,6 @@ p {
 #about .col-right p {
 	margin-bottom: 20px;
 	padding: 10px;
-	text-indent: 5rem;
 }
 #about .col-right .cta {
 	color: black;
@@ -405,12 +403,19 @@ p {
 	margin: 0 auto;
 	padding-bottom: 40px;
 }
+#before .before-bottom .shame{
+	font-size: 2.3rem;
+	text-align: Left;
+	padding: 20px;
+	text-indent: 0rem;
+}
 #before .before-bottom p {
 	font-size: 2.3rem;
 	text-indent: 5rem;
-	text-align: justify;
+	text-align: Left;
 	padding: 20px;
 }
+
 #before .before-bottom p span{
 	font-size: 2.5rem;
 	font-weight: 1000;
