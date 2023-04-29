@@ -244,6 +244,8 @@ p {
 	font-size: 2rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
 }
 #about .col-right p {
 	text-indent: 5rem;
