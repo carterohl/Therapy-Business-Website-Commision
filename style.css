@@ -31,7 +31,11 @@ p {
 	line-height: 3rem;
 	font-weight: 300;
 	letter-spacing: 0.01rem;
+<<<<<<< HEAD
 	text-align: justify;
+	padding: 5rem;
+=======
+>>>>>>> parent of c64a6c2 (Update style.css)
 }
 .section-title {
 	font-size: 4rem;
@@ -125,7 +129,7 @@ p {
 	display: block;
 }
 #header .nav-list ul a:hover {
-	color: #dddddd;
+	color: #aaaaaa;
 }
 
 #header .hamburger {
@@ -247,9 +251,9 @@ p {
 	flex-direction: column;
 	text-align: center;
 	min-height: auto;
-	max-width: 1200px;
+	max-width: 1500px;
 	margin: 0 auto;
-	background-color: white;
+	background-color: #dddddd;
 	border-radius: 10px;
 	box-shadow: 0px 0px 18px 0 #0000002c;
 }
@@ -369,7 +373,6 @@ p {
 #services .service-item p {
 	color: white;
 	margin: auto;
-	text-align: center;
 	font-size: 2.3rem;
 	width: auto;
 	height: 300px;
@@ -446,8 +449,8 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	width: 90%;
-	
 }
+
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
@@ -622,7 +625,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid #E2E6E7;
+		border: 10px solid #dddddd;
 	}
 	#about .col-right {
 		text-align: left;
