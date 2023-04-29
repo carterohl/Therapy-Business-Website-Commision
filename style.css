@@ -223,6 +223,20 @@ p {
 	width: 0;
 	background-color: #dddddd;
 }
+#hero h2 {
+	display: block;
+	width: fit-content;
+	font-size: 2.5rem;
+	position: relative;
+	color: white;
+}
+#hero h3 {
+	display: block;
+	width: fit-content;
+	font-size: 1.5rem;
+	position: relative;
+	color: white;
+}
 /* End Hero Section */
 
 /* Services Section */
