@@ -285,6 +285,7 @@ p {
 	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0px 0px 18px 0 #0000002c;
+	padding: 4rem;
 }
 
 #before .before-top {
@@ -304,8 +305,8 @@ p {
 }
 #before .before-bottom p {
 	font-size: 2.3rem;
-	text-indent: 5rem;
-	text-align: justify;
+	text-indent: 0rem;
+	text-align: left;
 	padding: 20px;
 }
 #before .before-bottom p span{
@@ -314,9 +315,7 @@ p {
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 }
-#before .before-bottom .shame{
-	text-indent: 0rem;
-}
+
 /*End BEFORE YOU BOOK SECTION*/
 
 /* Services Section */
@@ -400,13 +399,15 @@ p {
 }
 
 #services .service-item .times {
-	line-height: 3.6rem;
+	line-height: 5rem;
+	padding: 1.5rem;
 }
 #services .service-item .quote {
 	line-height: 3.6rem;
 }
 #services .service-item .insure {
-	line-height: 3.6rem;
+	line-height: 3rem;
+	font-size: 1.5rem;
 }
 /* End Services Section */
 
