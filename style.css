@@ -250,9 +250,7 @@ p {
 /* End Hero Section */
 
 /* Before You Book Section */
-#before {
 
-}
 #before .before {
 	flex-direction: column;
 	text-align: center;
@@ -280,7 +278,8 @@ p {
 }
 #before .before-bottom p {
 	font-size: 2.3rem;
-	text-align: left;
+	text-indent: 5rem;
+	text-align: justify;
 	padding: 20px;
 }
 #before .before-bottom p span{
@@ -303,6 +302,12 @@ p {
 } 
 #services .service-top p {
 	padding: 10px;
+} 
+#services .service-top p span{
+	font-size: 2.5rem;
+	font-weight: 1000;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
 } 
 #services .service-bottom {
 	display: flex;
@@ -400,6 +405,7 @@ p {
 #about .col-right p {
 	margin-bottom: 20px;
 	padding: 10px;
+	text-indent: 5rem;
 }
 #about .col-right .cta {
 	color: black;
