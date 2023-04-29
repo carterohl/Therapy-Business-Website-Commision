@@ -41,6 +41,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
+	padding: 3rem;
 }
 .section-title span {
 	color: #aaaaaa;
