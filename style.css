@@ -259,6 +259,7 @@ p {
 	margin: 0 auto;
 	background-color: #dddddd;
 	border-radius: 10px;
+	box-shadow: 0px 0px 18px 0 #0000002c;
 }
 
 #before .before-top {
@@ -288,6 +289,21 @@ p {
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 }
+/*#before .before-bottom {
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px; 
+	margin: 30px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	transition: 0.3s ease box-shadow;
+}*/
+
+/*End BEFORE YOU BOOK SECTION*/
 /* Services Section */
 #services .services {
 	flex-direction: column;
