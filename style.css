@@ -31,6 +31,7 @@ p {
 	line-height: 3rem;
 	font-weight: 300;
 	letter-spacing: 0.01rem;
+	text-align: justify;
 }
 .section-title {
 	font-size: 4rem;
@@ -124,7 +125,7 @@ p {
 	display: block;
 }
 #header .nav-list ul a:hover {
-	color: #aaaaaa;
+	color: #dddddd;
 }
 
 #header .hamburger {
@@ -255,9 +256,9 @@ p {
 	flex-direction: column;
 	text-align: center;
 	min-height: auto;
-	max-width: 1500px;
+	max-width: 1200px;
 	margin: 0 auto;
-	background-color: #dddddd;
+	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0px 0px 18px 0 #0000002c;
 }
@@ -377,6 +378,7 @@ p {
 #services .service-item p {
 	color: white;
 	margin: auto;
+	text-align: center;
 	font-size: 2.3rem;
 	width: auto;
 	height: 300px;
@@ -453,8 +455,8 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	width: 90%;
+	
 }
-
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
