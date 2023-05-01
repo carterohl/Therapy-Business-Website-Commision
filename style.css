@@ -189,9 +189,9 @@ p {
 #hero {
 	background-image: url(./img/Background2.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: fixed;
 	position: relative;
-	background-attachment: fixed;
+	background-attachment: center;
 	z-index: 1;
 	color: white;
 	
