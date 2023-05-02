@@ -251,6 +251,7 @@ p {
 	text-indent: 5rem;
 	text-align: left;
 	text-indent: 0rem;
+	font-size: 1.5em;
 }
 #about .col-right .cta {
 	color: black;
@@ -333,10 +334,13 @@ p {
 	margin: 0 auto;
 } 
 #services .service-top p span{
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: 1000;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
+} 
+#services .service-top p {
+	font-size: 1.5rem;
 } 
 #services .service-bottom {
 	display: flex;
