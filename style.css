@@ -191,7 +191,7 @@ p {
 	background-size: cover;
 	background-position: fixed;
 	position: relative;
-	background-attachment: center;
+	background-attachment: fixed;
 	z-index: 1;
 	color: white;
 	
