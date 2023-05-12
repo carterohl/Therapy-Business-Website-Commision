@@ -187,11 +187,10 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(img/newbackground1024.jpg);
+	background-image: url(img/newbackground.jpg);
 	background-size: cover;
 	background-position: fixed;
 	position: relative;
-	background-attachment: fixed;
 	z-index: 1;
 	color: white;
 }
