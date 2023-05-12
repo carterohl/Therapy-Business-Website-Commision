@@ -189,7 +189,7 @@ p {
 #hero {
 	background-image: url(img/newbackground1024.jpg);
 	background-size: cover;
-	background-position: fixed;
+	background-position: top center; /*was 'fixed'*/
 	position: relative;
 	background-attachment: fixed;
 	z-index: 1;
