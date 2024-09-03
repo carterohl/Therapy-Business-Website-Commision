@@ -1,5 +1,3 @@
-# A webpage for Stacie Lyn Anderson Therapy
+# A webpage designed and published by me for Stacie Lyn Anderson Therapy
 
 https://stacielyncounseling.com/
-
-Designed by Carter Ohl and Joey Banowetz
